@@ -1,3 +1,5 @@
 /.terraform*
 /.terraform
 /provider-info.tf
+/terraform.tfstate
+/terraform.tfstate*

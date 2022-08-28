@@ -9,6 +9,7 @@ resource "aws_vpc" "prod-vpc" {
     local.custom_tags,
     {
       type = "network"
+      Name = "sandbox-vpc"
     }
   )
 }
