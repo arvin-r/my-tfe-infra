@@ -13,12 +13,6 @@ resource "aws_vpc" "prod-vpc" {
   )
 }
 
-/* 
-output "prod-vpc" {
-    value = aws_vpc.prod-vpc
-}
- */
-
 #Get list of AZ in the region
 data "aws_availability_zones" "available" {
   state = "available"
